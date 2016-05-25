@@ -1,0 +1,362 @@
+2016-05-22 21:18:25 Error: [Cake\Network\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version.
+Request URL: /blog2/
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\View\View.php(992): include()
+#1 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\View\View.php(952): Cake\View\View->_evaluate('X:\\wamp\\www\\blo...', Array)
+#2 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\View\View.php(587): Cake\View\View->_render('X:\\wamp\\www\\blo...')
+#3 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('home', NULL)
+#4 X:\wamp\www\blog2\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#7 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 X:\wamp\www\blog2\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-05-22 21:28:44 Error: Fatal Error (1): Class 'App\Model\Entity\defaultPasswordHasher' not found in [X:\wamp\www\blog2\src\Model\Entity\User.php, line 48]
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-22 21:28:44 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\defaultPasswordHasher' not found
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'X:\\wamp\\www\\blo...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-22 21:29:52 Error: Fatal Error (1): Class 'App\Model\Entity\defaultPasswordHasher' not found in [X:\wamp\www\blog2\src\Model\Entity\User.php, line 48]
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-22 21:29:52 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\defaultPasswordHasher' not found
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'X:\\wamp\\www\\blo...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-22 21:35:49 Error: Fatal Error (1): Class 'App\Model\Entity\defaultPasswordHasher' not found in [X:\wamp\www\blog2\src\Model\Entity\User.php, line 48]
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-22 21:35:50 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\defaultPasswordHasher' not found
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'X:\\wamp\\www\\blo...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-22 21:38:09 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPasswordHasher' not found in [X:\wamp\www\blog2\src\Model\Entity\User.php, line 48]
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-22 21:38:10 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPasswordHasher' not found
+Request URL: /blog2/users/edit/1
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'X:\\wamp\\www\\blo...', 48)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-22 22:01:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Blog2 could not be found.
+Exception Attributes: array (
+  'class' => 'Blog2',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog2/blog2
+Stack Trace:
+#0 X:\wamp\www\blog2\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-22 22:02:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index could not be found.
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog2/index/php
+Stack Trace:
+#0 X:\wamp\www\blog2\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-05-24 01:11:01 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:11:02 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:11:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:11:02 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:12:12 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:12:13 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:12:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:12:13 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:12:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:12:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:12:17 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:12:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:13:01 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:13:02 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:13:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [X:\wamp\www\blog2\src\Controller\AppController.php, line 47]
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:13:03 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /blog2/users
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:15:40 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 X:\wamp\www\blog2\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-05-24 01:36:27 Error: Fatal Error (4): syntax error, unexpected '?' in [X:\wamp\www\blog2\src\Controller\UsersController.php, line 118]
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:36:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?'
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 118)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:36:28 Error: Fatal Error (4): syntax error, unexpected '?' in [X:\wamp\www\blog2\src\Controller\UsersController.php, line 118]
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:36:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?'
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/edit/1
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'X:\\wamp\\www\\blo...', 118)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:46:41 Error: Fatal Error (1): Call to a member function identify() on a non-object in [X:\wamp\www\blog2\src\Controller\UsersController.php, line 116]
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:46:41 Error: [Cake\Error\FatalErrorException] Call to a member function identify() on a non-object
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/login
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'X:\\wamp\\www\\blo...', 116)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-05-24 01:48:03 Error: Fatal Error (1): Call to a member function identify() on a non-object in [X:\wamp\www\blog2\src\Controller\UsersController.php, line 116]
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-05-24 01:48:03 Error: [Cake\Error\FatalErrorException] Call to a member function identify() on a non-object
+Request URL: /blog2/users/login
+Referer URL: http://localhost:8000/blog2/users/login
+Stack Trace:
+#0 X:\wamp\www\blog2\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'X:\\wamp\\www\\blo...', 116)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
